@@ -1,6 +1,7 @@
 {[ let extension = asset.format /]}
 {[ let suffix = "" /]}
 
+{* Prepare suffix based on the scale provided by the exporter *}
 {[ switch asset.scale ]}
     {[ case "x1" ]}
         {[ suffix = "" /]}
